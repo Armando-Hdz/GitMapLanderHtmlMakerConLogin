@@ -1,0 +1,19 @@
+.parte-editor{
+    width: 100%;
+    height: auto;
+    border: 1px solid blueviolet;
+    margin-top: 10px;
+}
+
+.parte-codigo{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid blueviolet;
+}
+
+ckeditor{
+    width: 90%;
+    height: 400px;
+    border: 1px solid black;
+}

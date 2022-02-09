@@ -24,7 +24,6 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "img/logo.png",
               "src/favicon.ico",
               "src/assets"
             ],
@@ -135,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "proyectoV2"
+  "defaultProject": "proyectoV2",
+  "cli": {
+    "analytics": "3ca09dcc-f929-4243-a1b2-b5f4556757df"
+  }
 }

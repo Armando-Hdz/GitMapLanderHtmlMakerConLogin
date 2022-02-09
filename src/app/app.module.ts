@@ -14,6 +14,11 @@ import { SendEmailComponent } from './auth/send-email/send-email.component';
 
 import { FooterComponent } from './shared/footer/footer.component';
 
+import { CKEditorModule } from 'ng2-ckeditor';
+import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,9 +32,14 @@ import { FooterComponent } from './shared/footer/footer.component';
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-    FormsModule
+    FormsModule,
+    CKEditorModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA,
+    NO_ERRORS_SCHEMA
+  ]
 })
 export class AppModule { }
